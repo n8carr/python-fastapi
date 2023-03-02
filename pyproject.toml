@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fast-api-lms-1-initial-app-setup"
+version = "0.1.0"
+description = ""
+authors = ["Nate Carr <me@n8carr.com>"]
+readme = "README.md"
+packages = [{include = "fast_api_lms_1_initial_app_setup"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.20.0"
+fastapi = "^0.92.0"
+pydantic = "^1.10.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
