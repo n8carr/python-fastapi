@@ -9,7 +9,7 @@ packages = [{include = "fast_api_lms_1_initial_app_setup"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 uvicorn = "^0.20.0"
-fastapi = "^0.92.0"
+fastapi = "^0.109.1"
 pydantic = "^1.10.5"
 
 
